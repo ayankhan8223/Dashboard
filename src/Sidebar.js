@@ -17,7 +17,7 @@ function Sidebar() {
         </h1>
       </div>
       <div className="user">
-        <Avatar src="PhotoRoom-20210816_234818-01.jpeg" />
+        <Avatar src="PhotoRoom-20210816_234818-01.jpeg" className="img" />
         <h3>Ayan Khan</h3>
         <p>Product Manager</p>
       </div>

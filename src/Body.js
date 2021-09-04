@@ -3,7 +3,6 @@ import "./Body.css";
 import Header from "./Header";
 import Widgets from "./Widgets";
 import Chart from "./Chart";
-import StickyHeadTable from "./StickyHeadTable";
 
 function Body() {
   return (
@@ -12,9 +11,6 @@ function Body() {
 
       <Widgets />
       <Chart />
-      <div className="table">
-        <StickyHeadTable />
-      </div>
     </div>
   );
 }

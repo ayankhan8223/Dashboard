@@ -1,9 +1,9 @@
 import React from "react";
-import "./Player.css";
+import "./Dashboard.css";
 import Sidebar from "./Sidebar";
 import Body from "./Body";
 
-function Player() {
+function Dashboard() {
   return (
     <div className="player">
       <div className="player_body">
@@ -16,4 +16,4 @@ function Player() {
   );
 }
 
-export default Player;
+export default Dashboard;
